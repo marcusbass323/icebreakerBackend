@@ -1,0 +1,23 @@
+{
+  "name": "icebreakerbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "nodemon",
+    "test": "jest --watch --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "knex": "^0.20.8",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusbass323/icebreakerBackend.git"
+  }
+}
